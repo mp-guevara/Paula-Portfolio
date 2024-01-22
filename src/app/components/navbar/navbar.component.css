@@ -1,0 +1,19 @@
+.nav{
+    background-color: #161616;
+}
+.active{
+    color:#9b6ef4 !important;
+    font-weight: 600;
+}
+
+.menu-list :hover{
+    color:#9b6ef4;
+}
+
+li{
+    list-style-type: none;
+}
+
+#logo {
+    width: 115px;
+}

@@ -1,0 +1,7 @@
+div{
+    background: radial-gradient(circle, rgba(41, 2, 101, 1) 0%, rgba(37, 37, 37, 1) 100%);
+    height: 100vh;
+}
+.component{
+    margin: auto;
+}

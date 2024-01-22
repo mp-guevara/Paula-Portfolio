@@ -1,0 +1,47 @@
+.contact{
+    background: radial-gradient(circle, rgba(41, 2, 101, 1) 0%, rgba(37, 37, 37, 1) 100%); 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 190px;
+}
+.c-title{
+    color:#9b6ef4;
+    padding: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    color:#ffffff;
+    font-size: 1em;
+}
+
+.contact-img{
+    height: 40px;
+}
+
+.info{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+a{
+    color:#ffffffc8;
+    text-decoration: none;
+}
+
+@media (max-width: 574px){
+    .contact{
+        padding-top: 100px;
+    }
+
+    .contact-img{
+        height: 20px;
+    }
+}

@@ -1,0 +1,38 @@
+
+.about-section{
+    background: radial-gradient(circle, rgba(41, 2, 101, 1) 0%, rgba(37, 37, 37, 1) 100%);
+    padding: 20px;
+}
+
+
+
+.profile-pic{
+    margin-top: 60px;
+    border: 2px solid #9b6ef4;
+}
+span{
+    color: #9b6ef4;
+    padding: 10px;
+}
+
+p{
+    color: #F1F2F3;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .about-section{
+        text-align: center;
+        margin: auto;
+    }
+
+  
+
+    .profile-pic{
+        display: none;
+    }
+}
